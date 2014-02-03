@@ -33,18 +33,19 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li class="active"><a href="#" class="mynav" data-section="home">Home</a></li>
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     About <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    <li><a href="#experience">Experience & Proficiencies</a></li>
-                    <li><a href="#career">Career</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience" class="mynav" data-section="about">
+                        Experience</a></li>
+                    <li><a href="#career" class="mynav" data-section="about">Career</a></li>
+                    <li><a href="#education" class="mynav" data-section="about">Education</a></li>
+                    <li><a href="#proficiency" class="mynav" data-section="about">Proficiency</a></li>
                 </ul>
             </li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact" class="mynav" data-section="contact">Contact</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     Download Résumé <b class="caret"></b></a>
@@ -61,82 +62,82 @@
     <!-- Main Content -->
 
     <div id="content">
-      <section id="home">
-
-      </section>
-      <section id="about">
-        <h3 class="a-buffer" id="experience">Experience and Proficiencies</h3>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 data-section="about" class="panel-title">Management</h4>
-            </div>
-            <div class="panel-body">
-               <ul>
-                    <li>Managing a Staff of 10 responsible for Michigan State University's 
-                        central enterprise storage, virtualization, server administration 
-                        and enterprise backup offerings</li>
-                    <li>Managing prices, cost recovery and service level agreements</li>
-                    <li>Hiring and training new staff</li>
-               </ul>
-            </div>
-        </div>
-
-        <h3 class="a-buffer" id="career">Career</h3>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 data-section="about" class="panel-title">Management</h4>
-            </div>
-            <div class="panel-body">
-               <!-- management content --> 
-               <ul>
-                    <li>Managing a Staff of 10 responsible for Michigan State University's 
-                        central enterprise storage, virtualization, server administration 
-                        and enterprise backup offerings</li>
-                    <li>Managing prices, cost recovery and service level agreements</li>
-                    <li>Hiring and training new staff</li>
-               </ul>
-            </div>
-        </div>
-
-        <h3 class="a-buffer" id="education">Education</h3>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 data-section="about" class="panel-title">Management</h4>
-            </div>
-            <div class="panel-body">
-               <!-- management content --> 
-               <ul>
-                    <li>Managing a Staff of 10 responsible for Michigan State University's 
-                        central enterprise storage, virtualization, server administration 
-                        and enterprise backup offerings</li>
-                    <li>Managing prices, cost recovery and service level agreements</li>
-                    <li>Hiring and training new staff</li>
-               </ul>
-            </div>
-        </div>
-
-        <h3 class="a-buffer" id="skills">Skills</h3>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 data-section="about" class="panel-title">Programming</h4>
-            </div>
-            <div class="panel-body">
-               <!-- management content --> 
-               <ul>
-                    <li>Managing a Staff of 10 responsible for Michigan State University's 
-                        central enterprise storage, virtualization, server administration 
-                        and enterprise backup offerings</li>
-                    <li>Managing prices, cost recovery and service level agreements</li>
-                    <li>Hiring and training new staff</li>
-               </ul>
-            </div>
+      <section id="home" data-main="home">
+        <div claass="jumbotron">
+            <h1>Jeffrey Quinn</h1>
+            <img src="assets/images/JeffQuinn.jpg" />
         </div>
       </section>
-      <section id="contact">
+      <section class="starthidden" id="about">
+        <h3 class="a-buffer" id="experience">Experience</h3>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title" data-main="about">Management</h4>
+            </div>
+            <div class="panel-body">
+               <ul>
+                    <li>Managing a Staff of 10 responsible for Michigan State University's 
+                        central enterprise storage, virtualization, server administration 
+                        and enterprise backup offerings</li>
+                    <li>Managing prices, cost recovery and service level agreements</li>
+                    <li>Hiring and training new staff</li>
+               </ul>
+            </div>
+        </div>
+
+        <h3 class="a-buffer" id="career" data-main="about">Career</h3>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">Management</h4>
+            </div>
+            <div class="panel-body">
+               <ul>
+                    <li>Managing a Staff of 10 responsible for Michigan State University's 
+                        central enterprise storage, virtualization, server administration 
+                        and enterprise backup offerings</li>
+                    <li>Managing prices, cost recovery and service level agreements</li>
+                    <li>Hiring and training new staff</li>
+               </ul>
+            </div>
+        </div>
+
+        <h3 class="a-buffer" id="education" data-main="about">Education</h3>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">Management</h4>
+            </div>
+            <div class="panel-body">
+               <ul>
+                    <li>Managing a Staff of 10 responsible for Michigan State University's 
+                        central enterprise storage, virtualization, server administration 
+                        and enterprise backup offerings</li>
+                    <li>Managing prices, cost recovery and service level agreements</li>
+                    <li>Hiring and training new staff</li>
+               </ul>
+            </div>
+        </div>
+
+        <h3 class="a-buffer" id="proficiency" data-main="about">Proficiency</h3>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">Programming</h4>
+            </div>
+            <div class="panel-body">
+               <ul>
+                    <li>Managing a Staff of 10 responsible for Michigan State University's 
+                        central enterprise storage, virtualization, server administration 
+                        and enterprise backup offerings</li>
+                    <li>Managing prices, cost recovery and service level agreements</li>
+                    <li>Hiring and training new staff</li>
+               </ul>
+            </div>
+        </div>
+      </section>
+      <section class="starthidden" id="contact">
         Contact information goes here
       </section>
-      <section id="projects">
-
+      <section class="starthidden" id="projects">
+          Projects!
       </section>
     </div>
 
