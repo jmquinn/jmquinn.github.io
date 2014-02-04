@@ -7,7 +7,6 @@ $(document).ready(function() {
     $(".mynav").on("click",function(e){
         e.preventDefault();
         $('.active').removeClass("active");
-//        alert($("#"+$(this).data("section")+"-nav").text());
         $("#"+$(this).data("section")+"-nav").closest("li").addClass("active");
         scrollTo($(this).attr('href'));
     });
