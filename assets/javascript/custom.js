@@ -1,38 +1,27 @@
 $(document).ready(function() { 
-    var section=window.location.hash.substring(1);
-//    $(".starthidden").hide();
-    if(section !="")
+    var section=window.location.hash;
+    if(section != "")
     {
-        showSection($("#"+section).closest("section").attr("id"));
+        scrollTo($(section).attr('id'));
     }
-    $(".mynav").on("click",function(){
-//        showSection($(this).data("section"));
-        showSection($(this).data("section"));
+    $(".mynav").on("click",function(e){
+        e.preventDefault();
+        $('.active').removeClass("active");
+//        alert($("#"+$(this).data("section")+"-nav").text());
+        $("#"+$(this).data("section")+"-nav").closest("li").addClass("active");
+        scrollTo($(this).attr('href'));
     });
 });
 
-function showSection(section) {
-    if(!section) {
-        section = "home";
-    }
-    else if(section == "#" || section == ""){
-        section = "home"
-    }
-    
-    if(!$('#'+section).is(':visible')){
-        hideAll();  
-        $('#'+section).fadeIn();
-    }
-    else scrollTo(section);
-    
-}
-
-function hideAll() {
-    $("section").fadeOut().delay(900);
+function getNavLink(elem){
+    $(elem).data("section");
 }
 
 function scrollTo(section){
-  $('html, body').animate({
-      scrollTop: $("#"+section).offset().top
-  }, 800);
+    if(section == '#'){
+        section = '#home';
+    }
+    $('html, body').animate({
+       scrollTop: $(section).offset().top
+    }, 800);
 }

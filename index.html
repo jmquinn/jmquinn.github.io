@@ -29,23 +29,23 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Jeffrey Quinn</a>
+          <a class="navbar-brand mynav" href="#">Jeffrey Quinn</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#" class="mynav" data-section="home">Home</a></li>
+            <li class="active"><a href="#" class="mynav" id="home-nav" data-section="home">Home</a></li>
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="about-nav">
                     About <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    <li><a href="#experience" class="mynav" data-section="about">
+                    <li><a href="#experience" class="mynav" id="experience-nav" data-section="about">
                         Experience</a></li>
-                    <li><a href="#career" class="mynav" data-section="about">Career</a></li>
-                    <li><a href="#education" class="mynav" data-section="about">Education</a></li>
-                    <li><a href="#proficiency" class="mynav" data-section="about">Proficiency</a></li>
+                    <li><a href="#career" class="mynav" id="career-nav" data-section="about">Career</a></li>
+                    <li><a href="#education" class="mynav" id="education-nav" data-section="about">Education</a></li>
+                    <li><a href="#proficiency" class="mynav" id="proficiency-nav" data-section="about">Proficiency</a></li>
                 </ul>
             </li>
-            <li><a href="#contact" class="mynav" data-section="contact">Contact</a></li>
+            <li><a href="#contact" class="mynav" id="contact-nav" data-section="contact">Contact</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     Download Résumé <b class="caret"></b></a>
@@ -62,8 +62,8 @@
     <!-- Main Content -->
 
     <div id="content">
-      <section id="home" data-main="home">
-        <div claass="jumbotron">
+      <section id="home" class="a-buffer" data-main="home">
+        <div>
             <h1>Jeffrey Quinn</h1>
             <img src="assets/images/JeffQuinn.jpg" />
         </div>
@@ -135,9 +135,6 @@
       </section>
       <section class="starthidden" id="contact">
         Contact information goes here
-      </section>
-      <section class="starthidden" id="projects">
-          Projects!
       </section>
     </div>
 
