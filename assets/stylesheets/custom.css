@@ -5,3 +5,11 @@ body {
 .a-buffer {
     padding-top: 70px;
 }
+
+.block {
+    height: 400px;
+}
+
+#section {
+    position: relative;
+}
