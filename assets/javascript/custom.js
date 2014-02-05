@@ -2,7 +2,7 @@ $(document).ready(function() {
     var section=window.location.hash;
     if(section != "")
     {
-        scrollTo($(section).attr('id'));
+        scrollTo('#'+$(section).attr('id'));
     }
     $(".mynav").on("click",function(e){
         e.preventDefault();
