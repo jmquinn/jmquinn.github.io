@@ -13,3 +13,11 @@ body {
 #section {
     position: relative;
 }
+
+.revisit {
+    color: #444444;
+}
+
+.revisit:hover {
+    color: #444444;
+}
