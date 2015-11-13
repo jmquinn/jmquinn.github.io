@@ -21,6 +21,6 @@ function scrollTo(section){
         section = '#home';
     }
     $('html, body').animate({
-       scrollTop: $(section).offset().top
+       scrollTop: $(section).offset().top-70
     }, 800);
 }
