@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/jmquinn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jeffreyquinn.com
+  * I am jmquinn (https://keybase.io/jmquinn) on keybase.
+  * I have a public key with fingerprint 73CB E8F6 0714 5D5B 3C8D  F9C1 81B0 C4C6 C24F C6BF
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010142c19c2bfc6f90746ad5a976199e7550187c15189d42b1e1e5677a264b369ada0a",
+            "fingerprint": "73cbe8f607145d5b3c8df9c181b0c4c6c24fc6bf",
+            "host": "keybase.io",
+            "key_id": "81b0c4c6c24fc6bf",
+            "kid": "010142c19c2bfc6f90746ad5a976199e7550187c15189d42b1e1e5677a264b369ada0a",
+            "uid": "5b0112b222263ec813d38a4c380a6300",
+            "username": "jmquinn"
+        },
+        "service": {
+            "hostname": "jeffreyquinn.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1487732267,
+    "expire_in": 157680000,
+    "prev": "5c87299226e64c7e4252ebaba7b730435207cb5d125acd2bc9e90f9a4e6b647b",
+    "seqno": 16,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.64
+Comment: https://keybase.io/crypto
+
+yMIoAnicrZJbSBVBGMePlywPBYLlhTJpRcwy3dnb7EplcPRBKDxFkUl02pmd9ayX
+3eOec7wgkhUVWS9RSShGRkRgkoVdHgxLO2CG1oupPURkaT0YFCRpYc1KvvXY9zLM
+zO//n/83fM/WxLjcUTHHwsUJJXYk6sXT9rCr9Pbi1kYGWVoDk9/IVJKlhVRpJBjy
+VRoak8+wgAUCh4GCOaRjSVdYKEiqJqoKlICiECiKLJAhBiKQFU3gECCAiBKEKicJ
+iJcUVVNZlclhdMMsJ3bANswQtYU8RkTWJRYCQdRExGNZ0xUMZIBYLGAJcwJ9DelU
+6LeCjoKGQ2qQ5BoWPaMb31K8f/D/OXd4yU5ELAAc4mhJPMEy4DVeVgXMy6wq8Szr
+gEFim2o1oXRFdU3YME2mKYehh7UGJs6/Oo0sA0TXbdKwROViq5rKA7YVsrBVRW/9
+oVAgmO+oQw0BB68jyPfXyIcMU6NfSRW1xA4alsnkA0rikOE4A0GGkKchYQ5D6gOG
+TXyGQ4hQkllazjuk1mkIy5BTFEoSScCQCJzIEaQiFSLIswIvcizESNQAJ6pY4xBW
+iMLqiioQCUkCRIzTWo1pUW+J5lTLqWfQKDfVUNgmTNPAk8Oxrii3K25FtDNjLnd8
+wvLkbVi7ytUuHDcfFE7e6F+dGJnLDHpQDxPZmd1bzcn9189Uznzye7+M4qR3Uyfq
+zt6NcAN9X7fI0yXJPaPrq97LH3cbg9MTRRdBS97I/pG5zvPugpPWfGu6kYSLCt/M
+Zi9Kz8s8C96kpsv3v6WlMUrHcN2msc33Un97hq+0eIcmx8YvnNo2NrXyYNker7t7
+L8rLSth4+u3R2A/+HbOV9ZeKYd2t9NoWf0WgbZ8nXLC9viuhq3m2rd2XeKgxNhJ3
+oHPd6/iJwpQhdsZ/9U6Gb2HuR3Rvxvfuz83ju362v/Tc7Gudr3E3ejMfZpWmVQVS
+hjKvMZGyc+l4sOyR/ivZenWkI/Xx4B/EdTze
+=uR8q
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jmquinn
+
+==================================================================
